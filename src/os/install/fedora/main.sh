@@ -6,8 +6,8 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-update
-upgrade
+#update
+#upgrade
 
 ./build-essentials.sh
 
