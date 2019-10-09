@@ -9,11 +9,10 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 print_in_purple "\n   Build Essentials\n\n"
 
 # Install tools for compiling/building software from source.
-install_package "Build Essential" "build-essential"
+install_package "Development Tools" "@development-tools"
 
-# GnuPG archive keys of the Debian archive.
-install_package "GnuPG archive keys" "debian-archive-keyring"
 
 # Software which is not included by default
-# in Ubuntu due to legal or copyright reasons.
-#install_package "Ubuntu Restricted Extras" "ubuntu-restricted-extras"
+# in Fedora due to legal or copyright reasons.
+install_package "Fedora RPM Fusion (Free)" "https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm"
+install_package "Fedora RPM Fusion (Non-Free)" "https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm"
