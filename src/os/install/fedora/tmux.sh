@@ -8,4 +8,4 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 
 print_in_purple "\n   tmux\n\n"
 
-install_package "tmux" "tmux"
+#install_package "tmux" "tmux"
