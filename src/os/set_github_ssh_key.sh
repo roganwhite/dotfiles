@@ -48,7 +48,7 @@ open_github_ssh_page() {
     declare -r GITHUB_SSH_URL="https://github.com/settings/ssh"
 
     # The order of the following checks matters
-    # as on Ubuntu there is also a utility called `open`.
+    # as on Ubuntu or Fedora there is also a utility called `open`.
 
     if cmd_exists "xdg-open"; then
         xdg-open "$GITHUB_SSH_URL"

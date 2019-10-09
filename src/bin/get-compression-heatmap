@@ -118,7 +118,7 @@ get_script_path() {
 open_image() {
 
     # The order of the following checks matters as
-    # on Ubuntu there is also a utility called `open`.
+    # on Ubuntu or Fedora there is also a utility called `open`.
 
     if cmd_exists "xdg-open"; then
         xdg-open "$1"

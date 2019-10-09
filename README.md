@@ -46,9 +46,11 @@ The setup process will:
 * Install applications / command-line tools for
   [`macOS`](src/os/install/macos) /
   [`Ubuntu`](src/os/install/ubuntu)
+  [`Fedora`](src/os/install/fedora)
 * Set custom
   [`macOS`](src/os/preferences/macos) /
   [`Ubuntu`](src/os/preferences/ubuntu) preferences
+  [`Fedora`](src/os/preferences/fedora) preferences
 * Install [`vim` plugins](src/vim/vim/plugins)
 
 Setup process in action:
