@@ -12,13 +12,13 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 ./build-essentials.sh
 
 ./git.sh
-./../nvm.sh
+#./../nvm.sh
 ./browsers.sh
 ./compression_tools.sh
 ./image_tools.sh
 ./misc.sh
 ./misc_tools.sh
-./../npm.sh
+#./../npm.sh
 ./tmux.sh
 ./../vim.sh
 
